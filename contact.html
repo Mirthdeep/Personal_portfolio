@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="blogContainer">
+            <div class="sidebar sidebarGo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="intro.html">My Intro</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">
+                <div class="hamburger">
+                    <img class="ham" src="ham.png" alt="" width="23">
+                    <img class="cross" src="cross.png" alt="" width="23">
+                </div>
+                <div class="contactform">
+                    <h1>Contact me for Project/General enqueries</h1>
+                    <form>
+                        <div class="mb-3">
+                            <label for="clientemail">Name</label>
+                            <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter your name"><br>
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                        <div class="mb-3">
+                        <label for="clientemail">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter your email"><br>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email & phone with anyone else.</small>
+                        </div>
+                        <div class="mb-3">
+                        <label for="clientphone">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone" placeholder="Enter your phone number">
+                        </div>
+                        <div class="mb-3">
+                        <label for="clientphone">Enquiry</label>
+                        <input type="name" class="form-control" id="clientphone" placeholder="Enter your enquiry question">
+                        </div>
+                        <div class="mb-3 form-check" id="form-check">
+                        <input type="checkbox" class="form-check-input" id="isClient">
+                        <label class="form-check-label" for="isClient">Lets work together on project</label>
+                        </div>
+                        <div class="buttons"></div>
+                        <button type="submit" class="btn btn-sm">Submit</button>
+                    </form>
+                </div>
+            </div>    
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
